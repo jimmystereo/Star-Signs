@@ -1,0 +1,844 @@
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age  ...                                             essay9
+0   22  ...  you want to be swept off your feet! you are ti...
+1   35  ...                                                NaN
+2   38  ...  you are bright, open, intense, silly, ironic, ...
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign      11056
+essay0     5488
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(44796, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+gemini and it&rsquo;s fun to think about         1671
+scorpio and it&rsquo;s fun to think about        1666
+leo and it&rsquo;s fun to think about            1565
+libra and it&rsquo;s fun to think about          1537
+taurus and it&rsquo;s fun to think about         1514
+pisces and it&rsquo;s fun to think about         1488
+sagittarius and it&rsquo;s fun to think about    1477
+virgo and it&rsquo;s fun to think about          1471
+cancer and it&rsquo;s fun to think about         1468
+aries and it&rsquo;s fun to think about          1465
+virgo but it doesn&rsquo;t matter                1387
+aquarius and it&rsquo;s fun to think about       1373
+cancer but it doesn&rsquo;t matter               1359
+gemini but it doesn&rsquo;t matter               1346
+leo but it doesn&rsquo;t matter                  1342
+taurus but it doesn&rsquo;t matter               1332
+libra but it doesn&rsquo;t matter                1307
+aquarius but it doesn&rsquo;t matter             1301
+aries but it doesn&rsquo;t matter                1289
+sagittarius but it doesn&rsquo;t matter          1267
+capricorn and it&rsquo;s fun to think about      1248
+capricorn but it doesn&rsquo;t matter            1216
+pisces but it doesn&rsquo;t matter               1178
+scorpio but it doesn&rsquo;t matter              1150
+leo                                              1042
+libra                                             976
+cancer                                            949
+virgo                                             910
+gemini                                            898
+scorpio                                           894
+taurus                                            893
+pisces                                            892
+aries                                             875
+aquarius                                          840
+sagittarius                                       840
+capricorn                                         752
+scorpio and it matters a lot                       71
+aquarius and it matters a lot                      62
+leo and it matters a lot                           60
+pisces and it matters a lot                        56
+cancer and it matters a lot                        54
+gemini and it matters a lot                        53
+libra and it matters a lot                         50
+sagittarius and it matters a lot                   45
+taurus and it matters a lot                        45
+aries and it matters a lot                         44
+capricorn and it matters a lot                     42
+virgo and it matters a lot                         36
+Name: count, dtype: int64
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age  ...                                             essay9
+0   22  ...  you want to be swept off your feet! you are ti...
+1   35  ...                                                NaN
+2   38  ...  you are bright, open, intense, silly, ironic, ...
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign      11056
+essay0     5488
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(44796, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+gemini and it&rsquo;s fun to think about         1671
+scorpio and it&rsquo;s fun to think about        1666
+leo and it&rsquo;s fun to think about            1565
+libra and it&rsquo;s fun to think about          1537
+taurus and it&rsquo;s fun to think about         1514
+pisces and it&rsquo;s fun to think about         1488
+sagittarius and it&rsquo;s fun to think about    1477
+virgo and it&rsquo;s fun to think about          1471
+cancer and it&rsquo;s fun to think about         1468
+aries and it&rsquo;s fun to think about          1465
+virgo but it doesn&rsquo;t matter                1387
+aquarius and it&rsquo;s fun to think about       1373
+cancer but it doesn&rsquo;t matter               1359
+gemini but it doesn&rsquo;t matter               1346
+leo but it doesn&rsquo;t matter                  1342
+taurus but it doesn&rsquo;t matter               1332
+libra but it doesn&rsquo;t matter                1307
+aquarius but it doesn&rsquo;t matter             1301
+aries but it doesn&rsquo;t matter                1289
+sagittarius but it doesn&rsquo;t matter          1267
+capricorn and it&rsquo;s fun to think about      1248
+capricorn but it doesn&rsquo;t matter            1216
+pisces but it doesn&rsquo;t matter               1178
+scorpio but it doesn&rsquo;t matter              1150
+leo                                              1042
+libra                                             976
+cancer                                            949
+virgo                                             910
+gemini                                            898
+scorpio                                           894
+taurus                                            893
+pisces                                            892
+aries                                             875
+aquarius                                          840
+sagittarius                                       840
+capricorn                                         752
+scorpio and it matters a lot                       71
+aquarius and it matters a lot                      62
+leo and it matters a lot                           60
+pisces and it matters a lot                        56
+cancer and it matters a lot                        54
+gemini and it matters a lot                        53
+libra and it matters a lot                         50
+sagittarius and it matters a lot                   45
+taurus and it matters a lot                        45
+aries and it matters a lot                         44
+capricorn and it matters a lot                     42
+virgo and it matters a lot                         36
+Name: count, dtype: int64
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age  ...                                             essay9
+0   22  ...  you want to be swept off your feet! you are ti...
+1   35  ...                                                NaN
+2   38  ...  you are bright, open, intense, silly, ironic, ...
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign      11056
+essay0     5488
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(44796, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+gemini and it&rsquo;s fun to think about         1671
+scorpio and it&rsquo;s fun to think about        1666
+leo and it&rsquo;s fun to think about            1565
+libra and it&rsquo;s fun to think about          1537
+taurus and it&rsquo;s fun to think about         1514
+pisces and it&rsquo;s fun to think about         1488
+sagittarius and it&rsquo;s fun to think about    1477
+virgo and it&rsquo;s fun to think about          1471
+cancer and it&rsquo;s fun to think about         1468
+aries and it&rsquo;s fun to think about          1465
+virgo but it doesn&rsquo;t matter                1387
+aquarius and it&rsquo;s fun to think about       1373
+cancer but it doesn&rsquo;t matter               1359
+gemini but it doesn&rsquo;t matter               1346
+leo but it doesn&rsquo;t matter                  1342
+taurus but it doesn&rsquo;t matter               1332
+libra but it doesn&rsquo;t matter                1307
+aquarius but it doesn&rsquo;t matter             1301
+aries but it doesn&rsquo;t matter                1289
+sagittarius but it doesn&rsquo;t matter          1267
+capricorn and it&rsquo;s fun to think about      1248
+capricorn but it doesn&rsquo;t matter            1216
+pisces but it doesn&rsquo;t matter               1178
+scorpio but it doesn&rsquo;t matter              1150
+leo                                              1042
+libra                                             976
+cancer                                            949
+virgo                                             910
+gemini                                            898
+scorpio                                           894
+taurus                                            893
+pisces                                            892
+aries                                             875
+aquarius                                          840
+sagittarius                                       840
+capricorn                                         752
+scorpio and it matters a lot                       71
+aquarius and it matters a lot                      62
+leo and it matters a lot                           60
+pisces and it matters a lot                        56
+cancer and it matters a lot                        54
+gemini and it matters a lot                        53
+libra and it matters a lot                         50
+sagittarius and it matters a lot                   45
+taurus and it matters a lot                        45
+aries and it matters a lot                         44
+capricorn and it matters a lot                     42
+virgo and it matters a lot                         36
+Name: count, dtype: int64
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age  ...                                             essay9
+0   22  ...  you want to be swept off your feet! you are ti...
+1   35  ...                                                NaN
+2   38  ...  you are bright, open, intense, silly, ironic, ...
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign      11056
+essay0     5488
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(44796, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+gemini and it&rsquo;s fun to think about         1671
+scorpio and it&rsquo;s fun to think about        1666
+leo and it&rsquo;s fun to think about            1565
+libra and it&rsquo;s fun to think about          1537
+taurus and it&rsquo;s fun to think about         1514
+pisces and it&rsquo;s fun to think about         1488
+sagittarius and it&rsquo;s fun to think about    1477
+virgo and it&rsquo;s fun to think about          1471
+cancer and it&rsquo;s fun to think about         1468
+aries and it&rsquo;s fun to think about          1465
+virgo but it doesn&rsquo;t matter                1387
+aquarius and it&rsquo;s fun to think about       1373
+cancer but it doesn&rsquo;t matter               1359
+gemini but it doesn&rsquo;t matter               1346
+leo but it doesn&rsquo;t matter                  1342
+taurus but it doesn&rsquo;t matter               1332
+libra but it doesn&rsquo;t matter                1307
+aquarius but it doesn&rsquo;t matter             1301
+aries but it doesn&rsquo;t matter                1289
+sagittarius but it doesn&rsquo;t matter          1267
+capricorn and it&rsquo;s fun to think about      1248
+capricorn but it doesn&rsquo;t matter            1216
+pisces but it doesn&rsquo;t matter               1178
+scorpio but it doesn&rsquo;t matter              1150
+leo                                              1042
+libra                                             976
+cancer                                            949
+virgo                                             910
+gemini                                            898
+scorpio                                           894
+taurus                                            893
+pisces                                            892
+aries                                             875
+aquarius                                          840
+sagittarius                                       840
+capricorn                                         752
+scorpio and it matters a lot                       71
+aquarius and it matters a lot                      62
+leo and it matters a lot                           60
+pisces and it matters a lot                        56
+cancer and it matters a lot                        54
+gemini and it matters a lot                        53
+libra and it matters a lot                         50
+sagittarius and it matters a lot                   45
+taurus and it matters a lot                        45
+aries and it matters a lot                         44
+capricorn and it matters a lot                     42
+virgo and it matters a lot                         36
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Shape after Splitting **********
+
+
+X_train:  (35836,)
+
+X_val:  (4480,)
+
+X_test:  (4480,)
+
+********** Data View after Splitting **********
+
+
+X_train:
+ 0    `` contradict ? well , contradict . larg . con...
+1    'm seattl-it born rais . come appreci outdoor ...
+2    hello . , live bay area 7 year . , realli love...
+Name: essay0, dtype: object
+
+X_val:
+ 0    origin california , beauti littl surf town red...
+1    drink live . 's . 'm . wast away day day . tom...
+2    recent move northern california southern calif...
+Name: essay0, dtype: object
+
+X_test:
+ 0    love . sport make peopl laugh meet new peopl g...
+1    open line caus 'm lazi think one . suck ? : p ...
+2    educ ed-reform org . emphat main , though happ...
+Name: essay0, dtype: object
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age  ...                                             essay9
+0   22  ...  you want to be swept off your feet! you are ti...
+1   35  ...                                                NaN
+2   38  ...  you are bright, open, intense, silly, ironic, ...
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign      11056
+essay0     5488
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(44796, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+gemini and it&rsquo;s fun to think about         1671
+scorpio and it&rsquo;s fun to think about        1666
+leo and it&rsquo;s fun to think about            1565
+libra and it&rsquo;s fun to think about          1537
+taurus and it&rsquo;s fun to think about         1514
+pisces and it&rsquo;s fun to think about         1488
+sagittarius and it&rsquo;s fun to think about    1477
+virgo and it&rsquo;s fun to think about          1471
+cancer and it&rsquo;s fun to think about         1468
+aries and it&rsquo;s fun to think about          1465
+virgo but it doesn&rsquo;t matter                1387
+aquarius and it&rsquo;s fun to think about       1373
+cancer but it doesn&rsquo;t matter               1359
+gemini but it doesn&rsquo;t matter               1346
+leo but it doesn&rsquo;t matter                  1342
+taurus but it doesn&rsquo;t matter               1332
+libra but it doesn&rsquo;t matter                1307
+aquarius but it doesn&rsquo;t matter             1301
+aries but it doesn&rsquo;t matter                1289
+sagittarius but it doesn&rsquo;t matter          1267
+capricorn and it&rsquo;s fun to think about      1248
+capricorn but it doesn&rsquo;t matter            1216
+pisces but it doesn&rsquo;t matter               1178
+scorpio but it doesn&rsquo;t matter              1150
+leo                                              1042
+libra                                             976
+cancer                                            949
+virgo                                             910
+gemini                                            898
+scorpio                                           894
+taurus                                            893
+pisces                                            892
+aries                                             875
+aquarius                                          840
+sagittarius                                       840
+capricorn                                         752
+scorpio and it matters a lot                       71
+aquarius and it matters a lot                      62
+leo and it matters a lot                           60
+pisces and it matters a lot                        56
+cancer and it matters a lot                        54
+gemini and it matters a lot                        53
+libra and it matters a lot                         50
+sagittarius and it matters a lot                   45
+taurus and it matters a lot                        45
+aries and it matters a lot                         44
+capricorn and it matters a lot                     42
+virgo and it matters a lot                         36
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Shape after Splitting **********
+
+
+X_train:  (35836,)
+
+X_val:  (4480,)
+
+X_test:  (4480,)
+
+********** Data View after Splitting **********
+
+
+X_train:
+ 0    `` contradict ? well , contradict . larg . con...
+1    'm seattl-it born rais . come appreci outdoor ...
+2    hello . , live bay area 7 year . , realli love...
+Name: essay0, dtype: object
+
+X_val:
+ 0    origin california , beauti littl surf town red...
+1    drink live . 's . 'm . wast away day day . tom...
+2    recent move northern california southern calif...
+Name: essay0, dtype: object
+
+X_test:
+ 0    love . sport make peopl laugh meet new peopl g...
+1    open line caus 'm lazi think one . suck ? : p ...
+2    educ ed-reform org . emphat main , though happ...
+Name: essay0, dtype: object
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age  ...                                             essay9
+0   22  ...  you want to be swept off your feet! you are ti...
+1   35  ...                                                NaN
+2   38  ...  you are bright, open, intense, silly, ironic, ...
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay0    4094
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(44796, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            4009
+gemini         3968
+libra          3870
+cancer         3830
+virgo          3804
+taurus         3784
+scorpio        3781
+aries          3673
+sagittarius    3629
+pisces         3614
+aquarius       3576
+capricorn      3258
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Shape after Splitting **********
+
+
+X_train:  (35836,)
+
+X_val:  (4480,)
+
+X_test:  (4480,)
+
+********** Data View after Splitting **********
+
+
+X_train:
+ 0    born switzerland , move bay area 7. 5 year sou...
+1    move bay area littl less 4 year ago . live thi...
+2                              intens , ambiti , funni
+Name: essay0, dtype: object
+
+X_val:
+ 0    've live bay area , rhode island , chicago . b...
+1    posit person wick sens humor fun . vivaci , in...
+2    parent name christina . love basebal loyal oak...
+Name: essay0, dtype: object
+
+X_test:
+ 0    parisian reloc us . love friend , spend time c...
+1    art director/ocean lover known check `` white ...
+2    life constant pull want save world , think not...
+Name: essay0, dtype: object
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay0    4094
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(44796, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            4009
+gemini         3968
+libra          3870
+cancer         3830
+virgo          3804
+taurus         3784
+scorpio        3781
+aries          3673
+sagittarius    3629
+pisces         3614
+aquarius       3576
+capricorn      3258
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Shape after Splitting **********
+
+
+X_train:  (35836,)
+
+X_val:  (4480,)
+
+X_test:  (4480,)
+
+********** Data View after Splitting **********
+
+
+X_train:
+ 0    born switzerland , move bay area 7. 5 year sou...
+1    move bay area littl less 4 year ago . live thi...
+2                              intens , ambiti , funni
+Name: essay0, dtype: object
+
+X_val:
+ 0    've live bay area , rhode island , chicago . b...
+1    posit person wick sens humor fun . vivaci , in...
+2    parent name christina . love basebal loyal oak...
+Name: essay0, dtype: object
+
+X_test:
+ 0    parisian reloc us . love friend , spend time c...
+1    art director/ocean lover known check `` white ...
+2    life constant pull want save world , think not...
+Name: essay0, dtype: object
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay0    4094
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(44796, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            4009
+gemini         3968
+libra          3870
+cancer         3830
+virgo          3804
+taurus         3784
+scorpio        3781
+aries          3673
+sagittarius    3629
+pisces         3614
+aquarius       3576
+capricorn      3258
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Shape after Splitting **********
+
+
+X_train:  (35836,)
+
+X_val:  (4480,)
+
+X_test:  (4480,)
+
+********** Data View after Splitting **********
+
+
+X_train:
+ 0    born switzerland , move bay area 7. 5 year sou...
+1    move bay area littl less 4 year ago . live thi...
+2                              intens , ambiti , funni
+Name: essay0, dtype: object
+
+X_val:
+ 0    've live bay area , rhode island , chicago . b...
+1    posit person wick sens humor fun . vivaci , in...
+2    parent name christina . love basebal loyal oak...
+Name: essay0, dtype: object
+
+X_test:
+ 0    parisian reloc us . love friend , spend time c...
+1    art director/ocean lover known check `` white ...
+2    life constant pull want save world , think not...
+Name: essay0, dtype: object
