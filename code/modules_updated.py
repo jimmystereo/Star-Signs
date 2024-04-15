@@ -27,7 +27,7 @@ def load_data(file_name, col_name):
 
     return: X and y dataframe
     """
-    output_file = open('output.txt', 'a')
+    output_file = open('output/output.txt', 'a')
 
     df = pd.read_csv(file_name)
     print("\n********** Data Summary **********\n")
@@ -95,7 +95,7 @@ def preprocess_data(data):
        return: transformed dataframe
 
     """
-    output_file = open('output.txt', 'a')
+    output_file = open('output/output.txt', 'a')
 
     print("\n\n********** Pre-processing Data **********\n")
     print("\n\n********** Pre-processing Data **********\n", file=output_file)
@@ -130,7 +130,7 @@ def preprocess_data(data):
 # Insert your code here
 
 def split_data(X_data, y_data):
-    output_file = open('output.txt', 'a')
+    output_file = open('output/output.txt', 'a')
 
     ## 1. Split data
 
@@ -176,7 +176,7 @@ def split_data(X_data, y_data):
 
 
 def evaluate_model(y_true, y_pred):
-    output_file = open('output.txt', 'a')
+    output_file = open('output/output.txt', 'a')
 
     print(confusion_matrix(y_true, y_pred))
     print(classification_report(y_true, y_pred))
@@ -201,7 +201,7 @@ def fit_model(X, y, modelname):
         model = DecisionTreeClassifier(random_state=0)
     elif modelname == "SVM":
         model = SVC(random_state=0)
-    elif modelname == "Logisitic":
+    elif modelname == "Logistic":
 
         model = LogisticRegression(random_state=0)
     elif modelname == "RandomForest":
