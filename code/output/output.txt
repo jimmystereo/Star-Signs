@@ -101,3 +101,5872 @@ pisces         3614
 aquarius       3576
 capricorn      3258
 Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay0    4094
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(44796, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            4009
+gemini         3968
+libra          3870
+cancer         3830
+virgo          3804
+taurus         3784
+scorpio        3781
+aries          3673
+sagittarius    3629
+pisces         3614
+aquarius       3576
+capricorn      3258
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay0    4094
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(44796, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            4009
+gemini         3968
+libra          3870
+cancer         3830
+virgo          3804
+taurus         3784
+scorpio        3781
+aries          3673
+sagittarius    3629
+pisces         3614
+aquarius       3576
+capricorn      3258
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay0    4094
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(44796, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            4009
+gemini         3968
+libra          3870
+cancer         3830
+virgo          3804
+taurus         3784
+scorpio        3781
+aries          3673
+sagittarius    3629
+pisces         3614
+aquarius       3576
+capricorn      3258
+Name: count, dtype: int64
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay0    4094
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(44796, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            4009
+gemini         3968
+libra          3870
+cancer         3830
+virgo          3804
+taurus         3784
+scorpio        3781
+aries          3673
+sagittarius    3629
+pisces         3614
+aquarius       3576
+capricorn      3258
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay0    4094
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(44796, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            4009
+gemini         3968
+libra          3870
+cancer         3830
+virgo          3804
+taurus         3784
+scorpio        3781
+aries          3673
+sagittarius    3629
+pisces         3614
+aquarius       3576
+capricorn      3258
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay0    4094
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(44796, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            4009
+gemini         3968
+libra          3870
+cancer         3830
+virgo          3804
+taurus         3784
+scorpio        3781
+aries          3673
+sagittarius    3629
+pisces         3614
+aquarius       3576
+capricorn      3258
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay0    4094
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(44796, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            4009
+gemini         3968
+libra          3870
+cancer         3830
+virgo          3804
+taurus         3784
+scorpio        3781
+aries          3673
+sagittarius    3629
+pisces         3614
+aquarius       3576
+capricorn      3258
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay0    4094
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(44796, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            4009
+gemini         3968
+libra          3870
+cancer         3830
+virgo          3804
+taurus         3784
+scorpio        3781
+aries          3673
+sagittarius    3629
+pisces         3614
+aquarius       3576
+capricorn      3258
+Name: count, dtype: int64
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay0    4094
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(44796, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            4009
+gemini         3968
+libra          3870
+cancer         3830
+virgo          3804
+taurus         3784
+scorpio        3781
+aries          3673
+sagittarius    3629
+pisces         3614
+aquarius       3576
+capricorn      3258
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay0    4094
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(44796, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            4009
+gemini         3968
+libra          3870
+cancer         3830
+virgo          3804
+taurus         3784
+scorpio        3781
+aries          3673
+sagittarius    3629
+pisces         3614
+aquarius       3576
+capricorn      3258
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay0    4094
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(44796, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            4009
+gemini         3968
+libra          3870
+cancer         3830
+virgo          3804
+taurus         3784
+scorpio        3781
+aries          3673
+sagittarius    3629
+pisces         3614
+aquarius       3576
+capricorn      3258
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay0    4094
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(44796, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            4009
+gemini         3968
+libra          3870
+cancer         3830
+virgo          3804
+taurus         3784
+scorpio        3781
+aries          3673
+sagittarius    3629
+pisces         3614
+aquarius       3576
+capricorn      3258
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay0    4094
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(44796, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            4009
+gemini         3968
+libra          3870
+cancer         3830
+virgo          3804
+taurus         3784
+scorpio        3781
+aries          3673
+sagittarius    3629
+pisces         3614
+aquarius       3576
+capricorn      3258
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay0    4094
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(44796, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            4009
+gemini         3968
+libra          3870
+cancer         3830
+virgo          3804
+taurus         3784
+scorpio        3781
+aries          3673
+sagittarius    3629
+pisces         3614
+aquarius       3576
+capricorn      3258
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay1    5426
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(43464, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            3910
+gemini         3834
+libra          3767
+cancer         3712
+taurus         3709
+virgo          3682
+scorpio        3626
+aries          3568
+pisces         3513
+sagittarius    3513
+aquarius       3478
+capricorn      3152
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay2    6849
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(42041, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            3772
+gemini         3692
+libra          3652
+taurus         3588
+cancer         3582
+virgo          3572
+scorpio        3502
+aries          3445
+sagittarius    3399
+pisces         3394
+aquarius       3365
+capricorn      3078
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay3    8062
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(40828, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            3640
+gemini         3585
+libra          3577
+cancer         3526
+virgo          3477
+taurus         3443
+scorpio        3410
+sagittarius    3320
+aries          3315
+pisces         3306
+aquarius       3235
+capricorn      2994
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay4    7589
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(41301, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            3711
+gemini         3650
+libra          3583
+cancer         3535
+taurus         3527
+virgo          3493
+scorpio        3455
+sagittarius    3378
+aries          3377
+pisces         3323
+aquarius       3272
+capricorn      2997
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay5    7598
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(41292, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            3679
+gemini         3637
+libra          3582
+cancer         3536
+virgo          3521
+taurus         3518
+scorpio        3451
+aries          3392
+pisces         3331
+sagittarius    3329
+aquarius       3290
+capricorn      3026
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay6    9922
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(38968, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            3501
+gemini         3420
+libra          3388
+cancer         3318
+virgo          3314
+taurus         3296
+scorpio        3251
+aries          3202
+sagittarius    3169
+pisces         3155
+aquarius       3117
+capricorn      2837
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay7    8822
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(40068, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            3572
+gemini         3530
+libra          3487
+taurus         3425
+cancer         3415
+virgo          3409
+scorpio        3342
+aries          3318
+pisces         3245
+sagittarius    3234
+aquarius       3151
+capricorn      2940
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign          0
+essay8    14272
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(34618, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            3074
+gemini         3031
+libra          3030
+cancer         2985
+virgo          2953
+taurus         2927
+scorpio        2905
+sagittarius    2843
+aries          2841
+pisces         2810
+aquarius       2723
+capricorn      2496
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay9    9190
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(39700, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+gemini         3526
+leo            3526
+libra          3472
+cancer         3411
+taurus         3380
+virgo          3363
+scorpio        3335
+aries          3249
+pisces         3205
+sagittarius    3190
+aquarius       3152
+capricorn      2891
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay0    4094
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(44796, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            4009
+gemini         3968
+libra          3870
+cancer         3830
+virgo          3804
+taurus         3784
+scorpio        3781
+aries          3673
+sagittarius    3629
+pisces         3614
+aquarius       3576
+capricorn      3258
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay0    4094
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(44796, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            4009
+gemini         3968
+libra          3870
+cancer         3830
+virgo          3804
+taurus         3784
+scorpio        3781
+aries          3673
+sagittarius    3629
+pisces         3614
+aquarius       3576
+capricorn      3258
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay0    4094
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(44796, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            4009
+gemini         3968
+libra          3870
+cancer         3830
+virgo          3804
+taurus         3784
+scorpio        3781
+aries          3673
+sagittarius    3629
+pisces         3614
+aquarius       3576
+capricorn      3258
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay0    4094
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(44796, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            4009
+gemini         3968
+libra          3870
+cancer         3830
+virgo          3804
+taurus         3784
+scorpio        3781
+aries          3673
+sagittarius    3629
+pisces         3614
+aquarius       3576
+capricorn      3258
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay0    4094
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(44796, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            4009
+gemini         3968
+libra          3870
+cancer         3830
+virgo          3804
+taurus         3784
+scorpio        3781
+aries          3673
+sagittarius    3629
+pisces         3614
+aquarius       3576
+capricorn      3258
+Name: count, dtype: int64
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay0    4094
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(44796, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            4009
+gemini         3968
+libra          3870
+cancer         3830
+virgo          3804
+taurus         3784
+scorpio        3781
+aries          3673
+sagittarius    3629
+pisces         3614
+aquarius       3576
+capricorn      3258
+Name: count, dtype: int64
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay0    4094
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(44796, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            4009
+gemini         3968
+libra          3870
+cancer         3830
+virgo          3804
+taurus         3784
+scorpio        3781
+aries          3673
+sagittarius    3629
+pisces         3614
+aquarius       3576
+capricorn      3258
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay0    4094
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(44796, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            4009
+gemini         3968
+libra          3870
+cancer         3830
+virgo          3804
+taurus         3784
+scorpio        3781
+aries          3673
+sagittarius    3629
+pisces         3614
+aquarius       3576
+capricorn      3258
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay0    4094
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(44796, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            4009
+gemini         3968
+libra          3870
+cancer         3830
+virgo          3804
+taurus         3784
+scorpio        3781
+aries          3673
+sagittarius    3629
+pisces         3614
+aquarius       3576
+capricorn      3258
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay1    5426
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(43464, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            3910
+gemini         3834
+libra          3767
+cancer         3712
+taurus         3709
+virgo          3682
+scorpio        3626
+aries          3568
+pisces         3513
+sagittarius    3513
+aquarius       3478
+capricorn      3152
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay2    6849
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(42041, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            3772
+gemini         3692
+libra          3652
+taurus         3588
+cancer         3582
+virgo          3572
+scorpio        3502
+aries          3445
+sagittarius    3399
+pisces         3394
+aquarius       3365
+capricorn      3078
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay3    8062
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(40828, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            3640
+gemini         3585
+libra          3577
+cancer         3526
+virgo          3477
+taurus         3443
+scorpio        3410
+sagittarius    3320
+aries          3315
+pisces         3306
+aquarius       3235
+capricorn      2994
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay4    7589
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(41301, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            3711
+gemini         3650
+libra          3583
+cancer         3535
+taurus         3527
+virgo          3493
+scorpio        3455
+sagittarius    3378
+aries          3377
+pisces         3323
+aquarius       3272
+capricorn      2997
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay5    7598
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(41292, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            3679
+gemini         3637
+libra          3582
+cancer         3536
+virgo          3521
+taurus         3518
+scorpio        3451
+aries          3392
+pisces         3331
+sagittarius    3329
+aquarius       3290
+capricorn      3026
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay6    9922
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(38968, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            3501
+gemini         3420
+libra          3388
+cancer         3318
+virgo          3314
+taurus         3296
+scorpio        3251
+aries          3202
+sagittarius    3169
+pisces         3155
+aquarius       3117
+capricorn      2837
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay7    8822
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(40068, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            3572
+gemini         3530
+libra          3487
+taurus         3425
+cancer         3415
+virgo          3409
+scorpio        3342
+aries          3318
+pisces         3245
+sagittarius    3234
+aquarius       3151
+capricorn      2940
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign          0
+essay8    14272
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(34618, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            3074
+gemini         3031
+libra          3030
+cancer         2985
+virgo          2953
+taurus         2927
+scorpio        2905
+sagittarius    2843
+aries          2841
+pisces         2810
+aquarius       2723
+capricorn      2496
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay9    9190
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(39700, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+gemini         3526
+leo            3526
+libra          3472
+cancer         3411
+taurus         3380
+virgo          3363
+scorpio        3335
+aries          3249
+pisces         3205
+sagittarius    3190
+aquarius       3152
+capricorn      2891
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay0    4094
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(44796, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            4009
+gemini         3968
+libra          3870
+cancer         3830
+virgo          3804
+taurus         3784
+scorpio        3781
+aries          3673
+sagittarius    3629
+pisces         3614
+aquarius       3576
+capricorn      3258
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay1    5426
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(43464, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            3910
+gemini         3834
+libra          3767
+cancer         3712
+taurus         3709
+virgo          3682
+scorpio        3626
+aries          3568
+pisces         3513
+sagittarius    3513
+aquarius       3478
+capricorn      3152
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay2    6849
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(42041, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            3772
+gemini         3692
+libra          3652
+taurus         3588
+cancer         3582
+virgo          3572
+scorpio        3502
+aries          3445
+sagittarius    3399
+pisces         3394
+aquarius       3365
+capricorn      3078
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay3    8062
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(40828, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            3640
+gemini         3585
+libra          3577
+cancer         3526
+virgo          3477
+taurus         3443
+scorpio        3410
+sagittarius    3320
+aries          3315
+pisces         3306
+aquarius       3235
+capricorn      2994
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay4    7589
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(41301, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            3711
+gemini         3650
+libra          3583
+cancer         3535
+taurus         3527
+virgo          3493
+scorpio        3455
+sagittarius    3378
+aries          3377
+pisces         3323
+aquarius       3272
+capricorn      2997
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay5    7598
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(41292, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            3679
+gemini         3637
+libra          3582
+cancer         3536
+virgo          3521
+taurus         3518
+scorpio        3451
+aries          3392
+pisces         3331
+sagittarius    3329
+aquarius       3290
+capricorn      3026
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay6    9922
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(38968, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            3501
+gemini         3420
+libra          3388
+cancer         3318
+virgo          3314
+taurus         3296
+scorpio        3251
+aries          3202
+sagittarius    3169
+pisces         3155
+aquarius       3117
+capricorn      2837
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay7    8822
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(40068, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            3572
+gemini         3530
+libra          3487
+taurus         3425
+cancer         3415
+virgo          3409
+scorpio        3342
+aries          3318
+pisces         3245
+sagittarius    3234
+aquarius       3151
+capricorn      2940
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign          0
+essay8    14272
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(34618, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            3074
+gemini         3031
+libra          3030
+cancer         2985
+virgo          2953
+taurus         2927
+scorpio        2905
+sagittarius    2843
+aries          2841
+pisces         2810
+aquarius       2723
+capricorn      2496
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay9    9190
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(39700, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+gemini         3526
+leo            3526
+libra          3472
+cancer         3411
+taurus         3380
+virgo          3363
+scorpio        3335
+aries          3249
+pisces         3205
+sagittarius    3190
+aquarius       3152
+capricorn      2891
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay0    4094
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(44796, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            4009
+gemini         3968
+libra          3870
+cancer         3830
+virgo          3804
+taurus         3784
+scorpio        3781
+aries          3673
+sagittarius    3629
+pisces         3614
+aquarius       3576
+capricorn      3258
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay0    4094
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(44796, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            4009
+gemini         3968
+libra          3870
+cancer         3830
+virgo          3804
+taurus         3784
+scorpio        3781
+aries          3673
+sagittarius    3629
+pisces         3614
+aquarius       3576
+capricorn      3258
+Name: count, dtype: int64
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay0    4094
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(44796, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            4009
+gemini         3968
+libra          3870
+cancer         3830
+virgo          3804
+taurus         3784
+scorpio        3781
+aries          3673
+sagittarius    3629
+pisces         3614
+aquarius       3576
+capricorn      3258
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay0    4094
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(44796, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            4009
+gemini         3968
+libra          3870
+cancer         3830
+virgo          3804
+taurus         3784
+scorpio        3781
+aries          3673
+sagittarius    3629
+pisces         3614
+aquarius       3576
+capricorn      3258
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+

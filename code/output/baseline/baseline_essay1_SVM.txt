@@ -1,0 +1,168 @@
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay1    5426
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(43464, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            3910
+gemini         3834
+libra          3767
+cancer         3712
+taurus         3709
+virgo          3682
+scorpio        3626
+aries          3568
+pisces         3513
+sagittarius    3513
+aquarius       3478
+capricorn      3152
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Shape after Splitting **********
+
+
+X_train:  (34771,)
+
+X_val:  (4346,)
+
+X_test:  (4347,)
+
+********** Data View after Splitting **********
+
+
+X_train:
+ 0    keep onlin order simultan maintain posit relat...
+1    entrepreneur heart love start-up - stori inter...
+2    'm live life , work , volunt , myriad activ .....
+Name: essay1, dtype: object
+
+X_val:
+ 0    defer gratif , mayb ? far least . passport get...
+1    curios primari aspect person . serv well role ...
+2                         work got biz . im progress .
+Name: essay1, dtype: object
+
+X_test:
+ 0    tri travel love includ need lot artist outlet ...
+1    enjoy life . make music , make friend , hang ,...
+2    poet night ... day , work adult development di...
+Name: essay1, dtype: object
+[[17 24 25 11 49 56 52 12 16 26 32 28]
+ [14 24 27  8 60 59 39 20 17 25 36 28]
+ [20 30 37  7 64 35 47 27 18 25 28 33]
+ [17 19 36  5 37 47 37 15 19 22 30 31]
+ [26 40 35  5 52 61 35 17 18 29 28 38]
+ [23 31 44  6 54 55 50 20 16 30 34 28]
+ [26 31 39  2 50 61 43 28 15 18 33 31]
+ [15 27 32  6 52 62 33 28 17 21 31 27]
+ [20 22 33  9 49 52 30 22 20 30 40 24]
+ [14 19 33  4 51 56 35 23 20 26 42 40]
+ [13 26 32  7 58 59 50 19 15 24 37 31]
+ [20 25 42 13 47 58 42 22 21 22 34 22]]
+              precision    recall  f1-score   support
+
+    aquarius       0.08      0.05      0.06       348
+       aries       0.08      0.07      0.07       357
+      cancer       0.09      0.10      0.09       371
+   capricorn       0.06      0.02      0.03       315
+      gemini       0.08      0.14      0.10       384
+         leo       0.08      0.14      0.10       391
+       libra       0.09      0.11      0.10       377
+      pisces       0.11      0.08      0.09       351
+ sagittarius       0.09      0.06      0.07       351
+     scorpio       0.09      0.07      0.08       363
+      taurus       0.09      0.10      0.10       371
+       virgo       0.06      0.06      0.06       368
+
+    accuracy                           0.08      4347
+   macro avg       0.08      0.08      0.08      4347
+weighted avg       0.08      0.08      0.08      4347
+

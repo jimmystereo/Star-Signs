@@ -1,0 +1,200 @@
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay0    4094
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(44796, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            4009
+gemini         3968
+libra          3870
+cancer         3830
+virgo          3804
+taurus         3784
+scorpio        3781
+aries          3673
+sagittarius    3629
+pisces         3614
+aquarius       3576
+capricorn      3258
+Name: count, dtype: int64
+
+********** Data Shape after Splitting **********
+
+
+X_train:  (35836, 384)
+
+X_val:  (4480, 384)
+
+X_test:  (4480, 384)
+
+********** Data View after Splitting **********
+
+
+X_train:
+         0         1         2         3         4         5         6    \
+0  0.785540  0.074036  0.310603  0.093972 -0.134876  0.158016  0.031611   
+1  0.489874 -0.212215  0.199066  0.107830  0.112223 -0.209123 -0.155986   
+2  0.375999  0.168042  0.041196 -0.076158 -0.016417 -0.502703  0.525771   
+
+        7         8         9    ...       374       375       376       377  \
+0 -0.030536 -0.336085 -0.043217  ...  0.130878  0.158262 -0.016465 -0.309729   
+1 -0.329226 -0.353922  0.016173  ...  0.028732  0.001319 -0.118819 -0.168921   
+2  0.120320 -0.031591 -0.172846  ...  0.158726  0.089763 -0.098269  0.637816   
+
+        378       379       380       381       382       383  
+0 -0.134988  0.211242  0.027576  0.030356 -0.277872 -0.122057  
+1 -0.208117  0.302421 -0.460523 -0.026367 -0.293913  0.256780  
+2 -0.862845  0.502527  1.121137  0.046702  0.065323  0.036078  
+
+[3 rows x 384 columns]
+
+X_val:
+         0         1         2         3         4         5         6    \
+0  0.450358 -0.557384  0.620414 -0.236716 -0.098367  0.215212  0.191976   
+1  0.369422 -0.093210  0.260257  0.013005 -0.083468 -0.100732  0.343108   
+2  0.252627 -0.038411  0.596817 -0.293641  0.213148  0.089383  0.550522   
+
+        7         8         9    ...       374       375       376       377  \
+0 -0.201502 -0.029969 -0.061908  ... -0.086915  0.018964  0.005920  0.342055   
+1 -0.123032  0.047964  0.013919  ...  0.139407 -0.116448  0.019352  0.288635   
+2  0.300712  0.195066 -0.074881  ... -0.172206  0.181657  0.046632  0.443901   
+
+        378       379       380       381       382       383  
+0  0.032017  0.054863  0.162446  0.170883 -0.733013 -0.002900  
+1 -0.220559  0.193845  0.414284  0.014140 -0.277105 -0.035257  
+2 -0.129765 -0.189652  0.606677 -0.012559 -0.381592  0.106010  
+
+[3 rows x 384 columns]
+
+X_test:
+         0         1         2         3         4         5         6    \
+0  0.437210 -0.047624  0.084730 -0.061461 -0.088867 -0.092102  0.184055   
+1  0.145458 -0.060960  0.198623  0.045117  0.204132 -0.074375  0.414600   
+2  0.234225  0.236286  0.129925 -0.011701  0.080644 -0.035744  0.357795   
+
+        7         8         9    ...       374       375       376       377  \
+0 -0.210360 -0.033641  0.119383  ... -0.134469  0.419582 -0.010787  0.096836   
+1  0.006844  0.034863 -0.142745  ... -0.084020 -0.010134  0.149865  0.289538   
+2 -0.127303  0.170226  0.107403  ... -0.031799  0.528215 -0.164262  0.558487   
+
+        378       379       380       381       382       383  
+0  0.069780  0.198735 -0.079457 -0.235686 -0.043694 -0.025315  
+1 -0.173701  0.256961  0.254634 -0.263277 -0.295702  0.070362  
+2 -0.092502  0.202860  0.153737 -0.106784 -0.345987 -0.032251  
+
+[3 rows x 384 columns]
+[[25 34 37 15 57 42 31 21 23 32 23 18]
+ [25 34 30 12 52 46 42 16 23 29 28 31]
+ [31 28 35  7 50 46 41 25 25 30 36 29]
+ [27 20 29 18 38 40 29 15 24 26 34 25]
+ [29 26 32 16 54 46 45 26 28 31 31 33]
+ [29 29 32 12 59 50 37 26 25 37 39 26]
+ [34 25 34 11 52 44 43 17 33 38 24 32]
+ [26 29 34  9 52 43 40 15 25 30 33 26]
+ [28 30 31 10 42 43 33 27 32 36 29 22]
+ [29 36 26 18 44 59 29 23 25 26 30 33]
+ [23 42 38 10 49 33 35 18 25 37 31 37]
+ [27 31 27 14 48 47 35 24 27 25 45 30]]
+              precision    recall  f1-score   support
+
+    aquarius       0.08      0.07      0.07       358
+       aries       0.09      0.09      0.09       368
+      cancer       0.09      0.09      0.09       383
+   capricorn       0.12      0.06      0.08       325
+      gemini       0.09      0.14      0.11       397
+         leo       0.09      0.12      0.11       401
+       libra       0.10      0.11      0.10       387
+      pisces       0.06      0.04      0.05       362
+ sagittarius       0.10      0.09      0.09       363
+     scorpio       0.07      0.07      0.07       378
+      taurus       0.08      0.08      0.08       378
+       virgo       0.09      0.08      0.08       380
+
+    accuracy                           0.09      4480
+   macro avg       0.09      0.09      0.09      4480
+weighted avg       0.09      0.09      0.09      4480
+

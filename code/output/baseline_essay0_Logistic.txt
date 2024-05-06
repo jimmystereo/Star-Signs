@@ -1,0 +1,137 @@
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay0    4094
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(44796, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            4009
+gemini         3968
+libra          3870
+cancer         3830
+virgo          3804
+taurus         3784
+scorpio        3781
+aries          3673
+sagittarius    3629
+pisces         3614
+aquarius       3576
+capricorn      3258
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Shape after Splitting **********
+
+
+X_train:  (35836,)
+
+X_val:  (4480,)
+
+X_test:  (4480,)
+
+********** Data View after Splitting **********
+
+
+X_train:
+ 0    born switzerland , move bay area 7. 5 year sou...
+1    move bay area littl less 4 year ago . live thi...
+2                              intens , ambiti , funni
+Name: essay0, dtype: object
+
+X_val:
+ 0    've live bay area , rhode island , chicago . b...
+1    posit person wick sens humor fun . vivaci , in...
+2    parent name christina . love basebal loyal oak...
+Name: essay0, dtype: object
+
+X_test:
+ 0    parisian reloc us . love friend , spend time c...
+1    art director/ocean lover known check `` white ...
+2    life constant pull want save world , think not...
+Name: essay0, dtype: object

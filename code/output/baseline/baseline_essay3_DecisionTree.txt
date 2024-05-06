@@ -1,0 +1,168 @@
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay3    8062
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(40828, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            3640
+gemini         3585
+libra          3577
+cancer         3526
+virgo          3477
+taurus         3443
+scorpio        3410
+sagittarius    3320
+aries          3315
+pisces         3306
+aquarius       3235
+capricorn      2994
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Shape after Splitting **********
+
+
+X_train:  (32662,)
+
+X_val:  (4083,)
+
+X_test:  (4083,)
+
+********** Data View after Splitting **********
+
+
+X_train:
+ 0    accent ... accent mix english west countri chi...
+1                                               tell !
+2    'm god damn relax happi . perpetu sustain unem...
+Name: essay3, dtype: object
+
+X_val:
+ 0          'm tall .
+1    tattoo hole ear
+2         hair smile
+Name: essay3, dtype: object
+
+X_test:
+ 0     charm smile uniqu capac regoddamndicul convers .
+1                                       `` sweati ? ''
+2    shini hair , enchant teeth , bitchi yet polit ...
+Name: essay3, dtype: object
+[[23 26 35 19 36 37 34 14 19 16 28 37]
+ [25 35 40 19 33 26 40 22 18 17 20 36]
+ [30 30 51 19 31 25 26 26 29 23 27 35]
+ [17 16 31 34 22 26 24 26 18 22 27 37]
+ [23 30 36 30 36 32 34 18 24 33 23 39]
+ [28 28 34 26 20 39 36 32 29 23 33 36]
+ [33 39 37 18 32 24 30 17 34 23 36 35]
+ [20 18 39 29 33 31 26 19 24 32 31 29]
+ [19 36 35 20 38 30 25 16 28 20 26 39]
+ [33 26 37 18 23 31 30 27 19 31 32 34]
+ [27 30 40 19 27 21 31 29 27 26 27 41]
+ [27 28 39 24 34 24 23 34 24 25 27 38]]
+              precision    recall  f1-score   support
+
+    aquarius       0.08      0.07      0.07       324
+       aries       0.10      0.11      0.10       331
+      cancer       0.11      0.14      0.13       352
+   capricorn       0.12      0.11      0.12       300
+      gemini       0.10      0.10      0.10       358
+         leo       0.11      0.11      0.11       364
+       libra       0.08      0.08      0.08       358
+      pisces       0.07      0.06      0.06       331
+ sagittarius       0.10      0.08      0.09       332
+     scorpio       0.11      0.09      0.10       341
+      taurus       0.08      0.08      0.08       345
+       virgo       0.09      0.11      0.10       347
+
+    accuracy                           0.10      4083
+   macro avg       0.10      0.10      0.10      4083
+weighted avg       0.10      0.10      0.10      4083
+

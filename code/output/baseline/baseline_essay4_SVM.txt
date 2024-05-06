@@ -1,0 +1,168 @@
+
+********** Data Summary **********
+
+(59946, 31) 
+
+   age     status sex orientation       body_type               diet  \
+0   22     single   m    straight  a little extra  strictly anything   
+1   35     single   m    straight         average       mostly other   
+2   38  available   m    straight            thin           anything   
+
+     drinks      drugs                       education     ethnicity  ...  \
+0  socially      never   working on college/university  asian, white  ...   
+1     often  sometimes           working on space camp         white  ...   
+2  socially        NaN  graduated from masters program           NaN  ...   
+
+                                              essay0  \
+0  about me:  i would love to think that i was so...   
+1  i am a chef: this is what that means. 1. i am ...   
+2  i'm not ashamed of much, but writing public te...   
+
+                                              essay1  \
+0  currently working as an international agent fo...   
+1  dedicating everyday to being an unbelievable b...   
+2  i make nerdy software for musicians, artists, ...   
+
+                                              essay2  \
+0  making people laugh. ranting about a good salt...   
+1  being silly. having ridiculous amonts of fun w...   
+2  improvising in different contexts. alternating...   
+
+                                              essay3  \
+0  the way i look. i am a six foot half asian, ha...   
+1                                                NaN   
+2  my large jaw and large glasses are the physica...   
+
+                                              essay4  \
+0  books: absurdistan, the republic, of mice and ...   
+1  i am die hard christopher moore fan. i don't r...   
+2  okay this is where the cultural matrix gets so...   
+
+                                              essay5  \
+0                  food. water. cell phone. shelter.   
+1  delicious porkness in all of its glories. my b...   
+2  movement conversation creation contemplation t...   
+
+                        essay6  \
+0  duality and humorous things   
+1                          NaN   
+2                          NaN   
+
+                                              essay7  \
+0  trying to find someone to hang out with. i am ...   
+1                                                NaN   
+2  viewing. listening. dancing. talking. drinking...   
+
+                                              essay8  \
+0  i am new to california and looking for someone...   
+1  i am very open and will share just about anyth...   
+2  when i was five years old, i was known as "the...   
+
+                                              essay9  
+0  you want to be swept off your feet! you are ti...  
+1                                                NaN  
+2  you are bright, open, intense, silly, ironic, ...  
+
+[3 rows x 31 columns] 
+
+None 
+
+
+********** Data Shape after Removing Duplicates **********
+
+(59946, 31) 
+
+
+********** Count of Null Values for Each Column **********
+
+sign         0
+essay4    7589
+dtype: int64 
+
+
+********** Data Shape after Removing Null Values **********
+
+(41301, 2) 
+
+
+********** Class Label Distribution **********
+
+sign
+leo            3711
+gemini         3650
+libra          3583
+cancer         3535
+taurus         3527
+virgo          3493
+scorpio        3455
+sagittarius    3378
+aries          3377
+pisces         3323
+aquarius       3272
+capricorn      2997
+Name: count, dtype: int64
+
+
+********** Pre-processing Data **********
+
+
+********** Data Shape after Splitting **********
+
+
+X_train:  (33040,)
+
+X_val:  (4130,)
+
+X_test:  (4131,)
+
+********** Data View after Splitting **********
+
+
+X_train:
+ 0    book : 1984 , world accord garp , peter hoeg -...
+1    john iriv ; rage placid lake ; singer-songwrit...
+2    hardli all-inclus list . author like : ernest ...
+Name: essay4, dtype: object
+
+X_val:
+ 0    bell toll , chesapeak , pillar earth , outlaw ...
+1    book open secret , canticl leibowitz , grey 's...
+2    favorit music : 've listen lot board canada la...
+Name: essay4, dtype: object
+
+X_test:
+ 0    - > mein erst buch : schwab klassisch sagen ( ...
+1    anyth pablo neruda , harri potter cashback , m...
+2    see plural 's ' question , 'll give three . bo...
+Name: essay4, dtype: object
+[[11 17 38  3 42 69 37 20 19 20 22 29]
+ [ 8 20 27  7 48 69 39  9 21 27 32 30]
+ [ 9 19 37  4 51 79 45 15 15 24 28 28]
+ [15 20 31  4 41 61 32 14  8 15 30 28]
+ [14 17 40  3 59 66 65 14 15 32 21 19]
+ [11 22 39  8 53 90 40  5 21 32 25 25]
+ [17 13 37  2 46 82 42 15 15 26 34 30]
+ [ 8 24 38  3 54 70 43  4 18 23 22 25]
+ [ 7 19 34  5 57 62 48 15 15 28 26 22]
+ [11 16 35  5 44 65 41 13 23 33 33 27]
+ [15 24 36  7 47 68 35 17 20 32 33 19]
+ [15 20 28  3 45 81 40 14 14 26 42 22]]
+              precision    recall  f1-score   support
+
+    aquarius       0.08      0.03      0.05       327
+       aries       0.09      0.06      0.07       337
+      cancer       0.09      0.10      0.10       354
+   capricorn       0.07      0.01      0.02       299
+      gemini       0.10      0.16      0.12       365
+         leo       0.10      0.24      0.15       371
+       libra       0.08      0.12      0.10       359
+      pisces       0.03      0.01      0.02       332
+ sagittarius       0.07      0.04      0.06       338
+     scorpio       0.10      0.10      0.10       346
+      taurus       0.09      0.09      0.09       353
+       virgo       0.07      0.06      0.07       350
+
+    accuracy                           0.09      4131
+   macro avg       0.08      0.09      0.08      4131
+weighted avg       0.08      0.09      0.08      4131
+
